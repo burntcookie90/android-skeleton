@@ -1,3 +1,31 @@
 <resources>
   <string name="app_name">Android Skeleton</string>
+
+  <!-- Dark Mode Selector settings entry-->
+  <string name="category_theme">Application Theme</string>
+  <!-- Dark Mode Selector Dialog title-->
+  <string name="theme_selector_title">Select Theme</string>
+  <!-- Dark Mode Selector Light item-->
+  <string name="light_theme">Light</string>
+  <!-- Dark Mode Selector Dark item-->
+  <string name="dark_theme">Dark</string>
+  <!-- Dark Mode Selector System item-->
+  <string name="system_theme">Follow System (Default)</string>
+
+  <string name="pref_theme_category" translatable="false">theme_category</string>
+  <!-- Used for the theme selection ListPreference -->
+  <string name="pref_application_theme" translatable="false">applicationTheme</string>
+
+  <string name="theme_value_light" translatable="false">light</string>
+  <string name="theme_value_dark" translatable="false">dark</string>
+  <string name="theme_value_system" translatable="false">system</string>
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="themeValues">
+    <item>@string/theme_value_light</item>
+    <item>@string/theme_value_dark</item>
+    <item>@string/theme_value_system</item>
+  </string-array>
+
 </resources>

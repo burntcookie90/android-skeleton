@@ -1,6 +1,242 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
   <color name="material_red_500">#F44336</color>
   <color name="material_red_900">#B71C1C</color>
+
+  <color name="colorPrimary">@color/blue_500</color>
+  <color name="colorPrimaryVariant">@color/blue_600</color>
+  <color name="colorOnPrimary">@color/neutral_0</color>
+
+  <color name="colorSecondary">@color/green_500</color>
+  <color name="colorSecondaryVariant">@color/green_600</color>
+  <color name="colorOnSecondary">@color/neutral_0</color>
+
+  <color name="backgroundLight">@color/neutral_20</color>
+  <color name="colorOnBackground">@color/neutral_800</color>
+
+  <color name="colorSurface">@color/neutral_0</color>
+  <color name="colorOnSurface">@color/neutral_800</color>
+
+  <color name="colorError">@color/red_500</color>
+  <color name="colorOnError">@color/neutral_0</color>
+
+  <color name="textColorPrimary">@color/text_primary</color>
+  <color name="textColorSecondary">@color/text_secondary</color>
+
+  <color name="colorPrimaryDark">@color/blue_700</color>
+  <color name="colorPrimaryVariantDark">@color/blue_500</color>
+  <color name="colorOnPrimaryDark">@color/neutral_0</color>
+
+  <color name="colorSecondaryDark">@color/green_500</color>
+  <color name="colorSecondaryVariantDark">@color/green_600</color>
+  <color name="colorOnSecondaryDark">@color/neutral_800</color>
+
+  <color name="backgroundDark">@color/shades_900</color>
+  <color name="colorOnBackgroundDark">@color/neutral_0</color>
+
+  <color name="colorSurfaceDark">#2C2B2E</color>
+  <color name="colorOnSurfaceDark">@color/neutral_0</color>
+
+  <color name="colorErrorDark">@color/red_400</color>
+  <color name="colorOnErrorDark">@color/neutral_800</color>
+
+  <color name="textColorPrimaryDark">@color/text_primary</color>
+  <color name="textColorSecondaryDark">@color/text_secondary</color>
+
+  <!-- Material colors -->
+  <color name="black_87">#212121</color>
+
+  <!-- Brand Colors :The official brand colors for Trello. Do not modify.-->
+  <color name="white" tools:ignore="UnusedResources">#FFFFFFFF</color>
+  <color name="gray" tools:ignore="UnusedResources">#4d4d4d</color>
+  <color name="background" tools:ignore="UnusedResources">#F0F0F0</color>
+  <color name="black" tools:ignore="UnusedResources">#FF000000</color>
+  <color name="transparent" tools:ignore="UnusedResources">#00000000</color>
+
+  <color name="blue_50" tools:ignore="UnusedResources">#e4f0f6</color>
+  <color name="blue_100" tools:ignore="UnusedResources">#bcd9ea</color>
+  <color name="blue_200" tools:ignore="UnusedResources">#8bbdd9</color>
+  <color name="blue_300" tools:ignore="UnusedResources">#5ba4cf</color>
+  <color name="blue_400" tools:ignore="UnusedResources">#298fca</color>
+  <color name="blue_500" tools:ignore="UnusedResources">#0079bf</color>
+  <color name="blue_600" tools:ignore="UnusedResources">#026aa7</color>
+  <color name="blue_700" tools:ignore="UnusedResources">#055a8c</color>
+  <color name="blue_800" tools:ignore="UnusedResources">#094c72</color>
+  <color name="blue_900" tools:ignore="UnusedResources">#0c3953</color>
+
+  <color name="green_50" tools:ignore="UnusedResources">#eef6ec</color>
+  <color name="green_100" tools:ignore="UnusedResources">#d6ecd2</color>
+  <color name="green_200" tools:ignore="UnusedResources">#b7ddb0</color>
+  <color name="green_300" tools:ignore="UnusedResources">#99d18f</color>
+  <color name="green_400" tools:ignore="UnusedResources">#7bc86c</color>
+  <color name="green_500" tools:ignore="UnusedResources">#61bd4f</color>
+  <color name="green_600" tools:ignore="UnusedResources">#5aac44</color>
+  <color name="green_700" tools:ignore="UnusedResources">#519839</color>
+  <color name="green_800" tools:ignore="UnusedResources">#49852e</color>
+  <color name="green_900" tools:ignore="UnusedResources">#3F6F21</color>
+
+  <color name="orange_50" tools:ignore="UnusedResources">#fdf5ec</color>
+  <color name="orange_100" tools:ignore="UnusedResources">#fce8d2</color>
+  <color name="orange_200" tools:ignore="UnusedResources">#fad8b0</color>
+  <color name="orange_300" tools:ignore="UnusedResources">#fdc788</color>
+  <color name="orange_400" tools:ignore="UnusedResources">#ffb968</color>
+  <color name="orange_500" tools:ignore="UnusedResources">#ffab4a</color>
+  <color name="orange_600" tools:ignore="UnusedResources">#e99e40</color>
+  <color name="orange_700" tools:ignore="UnusedResources">#d29034</color>
+  <color name="orange_800" tools:ignore="UnusedResources">#bb8129</color>
+  <color name="orange_900" tools:ignore="UnusedResources">#a0711c</color>
+
+  <color name="red_50" tools:ignore="UnusedResources">#fbedeb</color>
+  <color name="red_100" tools:ignore="UnusedResources">#f5d3ce</color>
+  <color name="red_200" tools:ignore="UnusedResources">#efb3ab</color>
+  <color name="red_300" tools:ignore="UnusedResources">#ec9488</color>
+  <color name="red_400" tools:ignore="UnusedResources">#ef7564</color>
+  <color name="red_500" tools:ignore="UnusedResources">#eb5a46</color>
+  <color name="red_600" tools:ignore="UnusedResources">#cf513d</color>
+  <color name="red_700" tools:ignore="UnusedResources">#b04632</color>
+  <color name="red_800" tools:ignore="UnusedResources">#933b27</color>
+  <color name="red_900" tools:ignore="UnusedResources">#6e2f1a</color>
+
+  <color name="yellow_50" tools:ignore="UnusedResources">#fdfae5</color>
+  <color name="yellow_100" tools:ignore="UnusedResources">#faf3c0</color>
+  <color name="yellow_200" tools:ignore="UnusedResources">#f5ea92</color>
+  <color name="yellow_300" tools:ignore="UnusedResources">#f3e260</color>
+  <color name="yellow_400" tools:ignore="UnusedResources">#f5dd29</color>
+  <color name="yellow_500" tools:ignore="UnusedResources">#f2d600</color>
+  <color name="yellow_600" tools:ignore="UnusedResources">#e6c60d</color>
+  <color name="yellow_700" tools:ignore="UnusedResources">#d9b51c</color>
+  <color name="yellow_800" tools:ignore="UnusedResources">#cca42b</color>
+  <color name="yellow_900" tools:ignore="UnusedResources">#bd903c</color>
+
+  <color name="purple_50" tools:ignore="UnusedResources">#f7f0fa</color>
+  <color name="purple_100" tools:ignore="UnusedResources">#eddbf4</color>
+  <color name="purple_200" tools:ignore="UnusedResources">#dfc0eb</color>
+  <color name="purple_300" tools:ignore="UnusedResources">#d5a6e6</color>
+  <color name="purple_400" tools:ignore="UnusedResources">#cd8de5</color>
+  <color name="purple_500" tools:ignore="UnusedResources">#c377e0</color>
+  <color name="purple_600" tools:ignore="UnusedResources">#a86cc1</color>
+  <color name="purple_700" tools:ignore="UnusedResources">#89609e</color>
+  <color name="purple_800" tools:ignore="UnusedResources">#6c547b</color>
+  <color name="purple_900" tools:ignore="UnusedResources">#484553</color>
+
+  <color name="pink_50" tools:ignore="UnusedResources">#fef2f9</color>
+  <color name="pink_100" tools:ignore="UnusedResources">#fcdef0</color>
+  <color name="pink_200" tools:ignore="UnusedResources">#fac6e5</color>
+  <color name="pink_300" tools:ignore="UnusedResources">#ffb0e1</color>
+  <color name="pink_400" tools:ignore="UnusedResources">#ff95d6</color>
+  <color name="pink_500" tools:ignore="UnusedResources">#ff80ce</color>
+  <color name="pink_600" tools:ignore="UnusedResources">#e76eb1</color>
+  <color name="pink_700" tools:ignore="UnusedResources">#cd5a91</color>
+  <color name="pink_800" tools:ignore="UnusedResources">#b44772</color>
+  <color name="pink_900" tools:ignore="UnusedResources">#96304c</color>
+
+  <color name="sky_50" tools:ignore="UnusedResources">#e4f7fa</color>
+  <color name="sky_100" tools:ignore="UnusedResources">#bdecf3</color>
+  <color name="sky_200" tools:ignore="UnusedResources">#8fdfeb</color>
+  <color name="sky_300" tools:ignore="UnusedResources">#5dd3e5</color>
+  <color name="sky_400" tools:ignore="UnusedResources">#29cce5</color>
+  <color name="sky_500" tools:ignore="UnusedResources">#00c2e0</color>
+  <color name="sky_600" tools:ignore="UnusedResources">#00aecc</color>
+  <color name="sky_700" tools:ignore="UnusedResources">#0098b7</color>
+  <color name="sky_800" tools:ignore="UnusedResources">#0082a0</color>
+  <color name="sky_900" tools:ignore="UnusedResources">#006988</color>
+
+  <color name="lime_50" tools:ignore="UnusedResources">#ecfbf3</color>
+  <color name="lime_100" tools:ignore="UnusedResources">#d3f6e4</color>
+  <color name="lime_200" tools:ignore="UnusedResources">#b3f1d0</color>
+  <color name="lime_300" tools:ignore="UnusedResources">#90ecc1</color>
+  <color name="lime_400" tools:ignore="UnusedResources">#6deca9</color>
+  <color name="lime_500" tools:ignore="UnusedResources">#51e898</color>
+  <color name="lime_600" tools:ignore="UnusedResources">#4fd683</color>
+  <color name="lime_700" tools:ignore="UnusedResources">#4dc26b</color>
+  <color name="lime_800" tools:ignore="UnusedResources">#4caf54</color>
+  <color name="lime_900" tools:ignore="UnusedResources">#4a9839</color>
+
+  <!--
+  Note: The new brand guidelines define "Shades" that replace the old grays.
+  If you're thinking about using one of these grays, consult design about
+  switching to Nachos shades.
+  https://design.trello.com/style/color
+
+  Keeping these for now since they're used in many places.
+  -->
+  <color name="gray_50" tools:ignore="UnusedResources">#f8f9f9</color>
+  <color name="gray_100" tools:ignore="UnusedResources">#edeff0</color>
+  <color name="gray_200" tools:ignore="UnusedResources">#e2e4e6</color>
+  <color name="gray_300" tools:ignore="UnusedResources">#d6dadc</color>
+  <color name="gray_400" tools:ignore="UnusedResources">#cdd2d4</color>
+  <color name="gray_500" tools:ignore="UnusedResources">#c4c9cc</color>
+  <color name="gray_600" tools:ignore="UnusedResources">#b6bbbf</color>
+  <color name="gray_700" tools:ignore="UnusedResources">#a5acb0</color>
+  <color name="gray_800" tools:ignore="UnusedResources">#959da1</color>
+  <color name="gray_900" tools:ignore="UnusedResources">#838c91</color>
+
+  <!-- Nachos colors -->
+  <color name="shades_0" tools:ignore="UnusedResources">#ffffff</color>
+  <color name="shades_50" tools:ignore="UnusedResources">#f8f9f9</color>
+  <color name="shades_100" tools:ignore="UnusedResources">#edeff0</color>
+  <color name="shades_200" tools:ignore="UnusedResources">#e2e4e6</color>
+  <color name="shades_300" tools:ignore="UnusedResources">#d6dadc</color>
+  <color name="shades_400" tools:ignore="UnusedResources">#838c91</color>
+  <color name="shades_500" tools:ignore="UnusedResources">#676d70</color>
+  <color name="shades_600" tools:ignore="UnusedResources">#333333</color>
+  <color name="shades_700" tools:ignore="UnusedResources">#222222</color>
+  <color name="shades_800" tools:ignore="UnusedResources">#111111</color>
+  <color name="shades_900" tools:ignore="UnusedResources">#000000</color>
+
+  <!-- ADG Neutrals -->
+  <color name="neutral_0" tools:ignore="UnusuedResources">#FFFFFF</color>
+  <color name="neutral_10" tools:ignore="UnusedResources">#FAFBFC</color>
+  <color name="neutral_20" tools:ignore="UnusedResources">#F4F5F7</color>
+  <color name="neutral_30" tools:ignore="UnusedResources">#EBECF0</color>
+  <color name="neutral_40" tools:ignore="UnusedResources">#DFE1E6</color>
+  <color name="neutral_50" tools:ignore="UnusedResources">#C1C7D0</color>
+  <color name="neutral_60" tools:ignore="UnusedResources">#B3BAC5</color>
+  <color name="neutral_70" tools:ignore="UnusedResources">#A5ADBA</color>
+  <color name="neutral_80" tools:ignore="UnusedResources">#97A0AF</color>
+  <color name="neutral_90" tools:ignore="UnusedResources">#8993A4</color>
+  <color name="neutral_100" tools:ignore="UnusedResources">#7A869A</color>
+  <color name="neutral_200" tools:ignore="UnusedResources">#6B778C</color>
+  <color name="neutral_300" tools:ignore="UnusedResources">#5E6C84</color>
+  <color name="neutral_400" tools:ignore="UnusedResources">#505F79</color>
+  <color name="neutral_500" tools:ignore="UnusedResources">#42526E</color>
+  <color name="neutral_600" tools:ignore="UnusedResources">#344563</color>
+  <color name="neutral_700" tools:ignore="UnusedResources">#253858</color>
+  <color name="neutral_800" tools:ignore="UnusedResources">#172B4D</color>
+  <color name="neutral_900" tools:ignore="UnusedResources">#091E42</color>
+
+  <!-- Labels -->
+  <color name="label_blue">@color/blue_500</color>
+  <color name="label_red">@color/red_500</color>
+  <color name="label_yellow">@color/yellow_500</color>
+  <color name="label_purple">@color/purple_500</color>
+  <color name="label_green">@color/green_500</color>
+  <color name="label_orange">@color/orange_500</color>
+  <color name="label_sky">@color/sky_500</color>
+  <color name="label_lime">@color/lime_500</color>
+  <color name="label_pink">@color/pink_500</color>
+  <color name="label_black">#355263</color>
+  <color name="label_none">#B3BEC4</color>
+
+  <!-- Random Avatar Backgrounds -->
+  <color name="avatar_random_bg_0">#BF0300</color>
+  <color name="avatar_random_bg_1">#BF5000</color>
+  <color name="avatar_random_bg_2">#BF9F00</color>
+  <color name="avatar_random_bg_3">#8FBF00</color>
+  <color name="avatar_random_bg_4">#40BF00</color>
+  <color name="avatar_random_bg_5">#00BFAF</color>
+  <color name="avatar_random_bg_6">#2000BF</color>
+  <color name="avatar_random_bg_7">#7000BF</color>
+  <color name="avatar_random_bg_8">#BF00BF</color>
+  <color name="avatar_random_bg_9">#BF0070</color>
+
+  <!-- Alpha colors -->
+  <!-- WARNING: Alpha can cause poor performance! Be sure you NEED alpha before using an alpha color! -->
+  <color name="black_a40">#66000000</color>
+  <color name="black_a60">#98000000</color>
+  <color name="black_a87">#DE000000</color>
+  <color name="white_a70">#B2FFFFFF</color>
+  <color name="gray_300_a87">#DED6DADC</color>
+  <color name="shades_400_a40">#66838c91</color>
 
 </resources>

@@ -1,36 +1,34 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.Demo">
+        android:theme="@style/Theme.Demo"
+        >
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/Theme.Demo"
+            ></activity>
+        <activity android:name=".MyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
 
         <activity-alias
             android:name="activity.primary_launcher"
-            android:targetActivity="com.example.MyActivity">
+            android:targetActivity=".MyActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity-alias>
-
-        <activity android:name="com.example.MyActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-
-        <!-- Add a new run configuration that points directly to this (or open from the launcher) -->
-        <activity android:name="com.example.MyComposeActivity"
-            android:label="AS Compose">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
     </application>
 
 </manifest>

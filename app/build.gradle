@@ -29,8 +29,8 @@ android {
         }
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion versions.compose
+    viewBinding {
+        enabled = true
     }
 }
 
@@ -39,16 +39,16 @@ dependencies {
     implementation libraries.androidxConstraintLayout
     implementation libraries.androidxLegacySupportV13
     implementation libraries.androidxRecyclerView
-    implementation libraries.androidxUiFramework
-    implementation libraries.androidxUiLayout
-    implementation libraries.androidxUiMaterial
-    implementation libraries.androidxUiTooling
+    implementation libraries.androidxPreference
     implementation libraries.glide
     implementation libraries.kotlinStdLib
     implementation libraries.materialDesignComponents
     implementation libraries.moshi
     implementation libraries.roomRuntime
 
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt libraries.roomCompiler
 
     androidTestImplementation libraries.androidxEspressoCore
